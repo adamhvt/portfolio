@@ -7,7 +7,7 @@ function Introduction() {
             <div className="site-center">
                 <div className="row">
                     <aside>
-                        <div><img src={profilePic} className="profile-pic" alt="Profile picture" width="150px" /></div>
+                        <div><img src={profilePic} className="profile-pic" alt="Profile" width="150px" /></div>
                     </aside>
                     <article>
                         <p>Hi! I'm a senior software engineer with team management and project management experience.</p>
