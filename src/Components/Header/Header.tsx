@@ -25,13 +25,13 @@ function Header() {
                 <div className="header-right">
                     <ul>
                         <li>
-                            <a href="https://github.com/niceberg" target="_blank" className="link-social"><FontAwesomeIcon icon={faGithub} size="lg" /></a>
+                            <a href="https://github.com/niceberg" target="_blank" rel="noreferrer" className="link-social"><FontAwesomeIcon icon={faGithub} size="lg" /></a>
                         </li>
                         <li>
-                            <a href="https://linkedin.com/in/niceberg/" target="_blank" className="link-social"><FontAwesomeIcon icon={faLinkedinIn} size="lg" /></a>
+                            <a href="https://linkedin.com/in/niceberg/" target="_blank" rel="noreferrer" className="link-social"><FontAwesomeIcon icon={faLinkedinIn} size="lg" /></a>
                         </li>
                         <li>
-                            <a href="https://github.com/niceberg" target="_blank" className="link-social"><FontAwesomeIcon icon={faMediumM} size="lg" /></a>
+                            <a href="https://github.com/niceberg" target="_blank" rel="noreferrer" className="link-social"><FontAwesomeIcon icon={faMediumM} size="lg" /></a>
                         </li>
                     </ul>
                 </div>
