@@ -1,0 +1,22 @@
+.header-mobile {
+  width: 100%;
+  padding: 1rem 0;
+  position: fixed;
+  bottom: 0;
+  background-color: #fff;
+
+  nav {
+    width: 80vw;
+    margin: auto;
+
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    a {
+      color: #000;
+    }
+  }
+}

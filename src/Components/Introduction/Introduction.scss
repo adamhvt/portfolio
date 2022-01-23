@@ -1,0 +1,19 @@
+aside {
+  width: 15%;
+
+  .profile-pic {
+    border-radius: 100%;
+    overflow: hidden;
+  }
+}
+
+article {
+  margin-left: 4vw;
+  width: 50vw;
+
+  font-size: x-large;
+
+  p:first-child {
+    margin-top: 0;
+  }
+}
