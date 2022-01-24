@@ -31,7 +31,7 @@ function Header() {
                             <a href="https://linkedin.com/in/niceberg/" target="_blank" rel="noreferrer" className="link-social"><FontAwesomeIcon icon={faLinkedinIn} size="lg" /></a>
                         </li>
                         <li>
-                            <a href="https://github.com/niceberg" target="_blank" rel="noreferrer" className="link-social"><FontAwesomeIcon icon={faMediumM} size="lg" /></a>
+                            <a href="https://medium.com/@adam.horvath.0827" target="_blank" rel="noreferrer" className="link-social"><FontAwesomeIcon icon={faMediumM} size="lg" /></a>
                         </li>
                     </ul>
                 </div>
