@@ -7,6 +7,7 @@ import {
 import './App.scss';
 import Contact from './Components/Contact/Contact';
 import CV from './Components/CV/CV';
+import Footer from './Components/Footer/Footer';
 import './Components/Header/Header';
 import Header from './Components/Header/Header';
 import HeaderMobile from './Components/HeaderMobile/HeaderMobile';
@@ -24,6 +25,7 @@ function App() {
             <Route path="/contact" element={<Contact />}></Route>
           </Routes>
         </main>
+        <Footer></Footer>
         <HeaderMobile></HeaderMobile>
       </div>
     </BrowserRouter>

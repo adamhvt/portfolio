@@ -1,0 +1,21 @@
+footer {
+  padding: 1rem 0;
+  color: #000;
+
+  .contact {
+    text-align: center;
+
+    a {
+      margin-left: 0.5rem;
+      color: #000;
+    }
+  }
+}
+
+.footer-spacer {
+  min-height: 3rem;
+
+  @media screen and (min-width: 800px) {
+    display: none;
+  }
+}
