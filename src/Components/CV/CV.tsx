@@ -44,7 +44,7 @@ function CV() {
                             brands.
                             {
                                 !highlightVisible[0] ?
-                                    <a className="highlight-toggle" href={void (0)} onClick={() => showHighlight(0)}>More</a> :
+                                    <a href="#/" className="highlight-toggle" onClick={() => showHighlight(0)}>More</a> :
                                     <span>
                                         <br />
                                         Architected and led the development of a manufacturing support system using Angular, ASP.Net and
@@ -58,7 +58,7 @@ function CV() {
                             Intranet portal for one of the major banks in Central Europe, the largest bank in Hungary.
                             {
                                 !highlightVisible[1] ?
-                                    <a className="highlight-toggle" href={void (0)} onClick={() => showHighlight(1)}>More</a> :
+                                    <a href="#/" className="highlight-toggle" onClick={() => showHighlight(1)}>More</a> :
                                     <span>
                                         <br />
                                         Developed several
@@ -73,7 +73,7 @@ function CV() {
                             Full-stack application framework to bolster delivering quality solutions on a fast pace.
                             {
                                 !highlightVisible[2] ?
-                                    <a className="highlight-toggle" href={void (0)} onClick={() => showHighlight(2)}>More</a> :
+                                    <a href="#/" className="highlight-toggle" onClick={() => showHighlight(2)}>More</a> :
                                     <span>
                                         <br />
                                         Responsibilities included
@@ -101,7 +101,7 @@ function CV() {
                             Product owner of a client facing content management and reporting system.
                             {
                                 !highlightVisible[3] ?
-                                    <a className="highlight-toggle" href={void (0)} onClick={() => showHighlight(3)}>More</a> :
+                                    <a href="#/" className="highlight-toggle" onClick={() => showHighlight(3)}>More</a> :
                                     <span>
                                         <br />
                                         I was responsible for
@@ -114,7 +114,7 @@ function CV() {
                             Product owner of a sample processing workflow system.
                             {
                                 !highlightVisible[4] ?
-                                    <a className="highlight-toggle" href={void (0)} onClick={() => showHighlight(4)}>More</a> :
+                                    <a href="#/" className="highlight-toggle" onClick={() => showHighlight(4)}>More</a> :
                                     <span>
                                         <br />
                                         I was responsible for implementing optimisations
@@ -128,7 +128,7 @@ function CV() {
                             Full software redesign of an internal project management system.
                             {
                                 !highlightVisible[5] ?
-                                    <a className="highlight-toggle" href={void (0)} onClick={() => showHighlight(5)}>More</a> :
+                                    <a href="#/" className="highlight-toggle" onClick={() => showHighlight(5)}>More</a> :
                                     <span>
                                         <br />
                                         The project resulted in significant
