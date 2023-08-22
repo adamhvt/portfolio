@@ -17,7 +17,7 @@ function CV() {
         <>
             <div className="site-center">
                 <div className="download-cv">
-                    <Link to={require("../../Resources/Documents/Adam_Horvath_Resume_2022.pdf")} target="blank">
+                    <Link to={require("../../Resources/Documents/Adam_Horvath_CV.pdf")} target="blank">
                         Download my consize CV in PDF format here
                     <FontAwesomeIcon icon={faDownload} size="lg" style={{ marginLeft: "1rem" }} />
                     </Link>
