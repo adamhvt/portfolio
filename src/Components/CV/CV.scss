@@ -1,8 +1,23 @@
 a {
-    color: #fff;
+  color: #fff;
 }
 
 .highlight-toggle {
-    margin-left: .5rem;
-    text-decoration: underline;
+  margin-left: 0.5rem;
+  text-decoration: underline;
+}
+
+.work-title {
+  color: #ddd;
+}
+
+.work-years {
+  color: #888;
+}
+
+.section-skills {
+  ul {
+    margin-left: 1rem;
+    list-style: disc;
+  }
 }
