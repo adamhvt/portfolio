@@ -2,6 +2,22 @@ a {
   color: #fff;
 }
 
+.download-cv-container {
+  display: flex;
+
+  .download-cv {
+    border: 1px solid #FFF;
+    border-radius: 0.5rem;
+    margin-left: auto;
+    padding: 0.5rem 1rem;
+  }
+}
+
+.experience-details {
+  padding-left: 1.5rem;
+  text-indent: -1.5rem;
+}
+
 .highlight-toggle {
   margin-left: 0.5rem;
   text-decoration: underline;

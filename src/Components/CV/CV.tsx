@@ -1,8 +1,7 @@
-import { faDownload } from '@fortawesome/free-solid-svg-icons';
+import { faFilePdf } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-// import doc from '../../Resources/Documents/Adam_Horvath_Resume_2022.pdf';
 import './CV.scss';
 
 function CV() {
@@ -16,11 +15,13 @@ function CV() {
     return (
         <>
             <div className="site-center">
-                <div className="download-cv">
-                    <Link to={require("../../Resources/Documents/Adam_Horvath_CV.pdf")} target="blank">
-                        <FontAwesomeIcon icon={faDownload} size="lg" style={{ marginRight: "1rem" }} />
-                        Download my CV in PDF format here
-                    </Link>
+                <div className="download-cv-container">
+                    <div className="download-cv">
+                        <Link to={require("../../Resources/Documents/Adam_Horvath_CV.pdf")} target="blank">
+                            <FontAwesomeIcon icon={faFilePdf} size="lg" style={{ marginRight: "1rem" }} />
+                            Download my CV in PDF format here
+                        </Link>
+                    </div>
                 </div>
 
                 {/* WORK EXPERIENCE */}
@@ -28,13 +29,28 @@ function CV() {
 
                 <section>
                     <h2 className='work-title'>Phinsys, London</h2>
-                    <div className='work-years'>2022- Senior Software Engineer</div>
+                    <div className='work-years'>2022 - 2024 Senior Software Engineer</div>
                     <p>
-                        Working on the reimplementation of the flagship data warehousing product. Responsible for delivering key
-                        features: a diagramming tool for defining ETL processes, code editors with custom language features, bespoke and
-                        standard form controls using Angular and other features spanning from database to frontend.
+                        Worked on the next generation of the company's flagship data modelling and data processing product used for
+                        building data warehouses, reporting and providing data for external financial systems. I was responsible for
+                        delivering key system components:
                     </p>
-                    <p>Technologies used: <strong>Angular 14+, Nx, .Net 7+, SQL Server, Azure.</strong></p>
+                    <p className='experience-details'>
+                        <strong>Data model management module</strong> -
+                        Key part in building a module that allows browsing, building and combining different data sources that are fed into ETL processes.
+                    </p>
+                    <p className='experience-details'>
+                        <strong>ETL process builder</strong> -
+                        Built a diagramming user interface similar to Azure Data Factory and AWS Glue for
+                        drawing processes, and the backing system components for managing process models and process
+                        configurations.
+                    </p>
+                    <p className='experience-details'>
+                        <strong>Contributions to the framework used for building applications</strong> -
+                        Key part in building a web application framework used to bolster building the
+                        company's flagship and other future products.
+                        Worked on core features, general purpose UI controls and controls used for data modelling along with smaller developer tools.
+                    </p>
                 </section>
 
                 <section>
@@ -158,7 +174,7 @@ function CV() {
                     <ul>
                         <li>Angular, TypeScript, JavaScript, CSS, Sass</li>
                         <li>.Net, .Net Core, C#</li>
-                        <li>SQL Server, MongoDB, CosmosDB</li>
+                        <li>SQL Server, MongoDB, Cosmos DB</li>
                         <li>Azure, DevOps</li>
                         <li>Agile Development, Web Application Design and Architecture, Responsive and Adaptive UI Design</li>
                         <li>Also familiar with React, SharePoint, MongoDB, CosmosDB</li>
