@@ -13,6 +13,14 @@ a {
   }
 }
 
+section + section {
+  margin-top: 4rem;
+}
+
+.section-content {
+  padding-left: 1rem;
+}
+
 .experience-details {
   padding-left: 1.5rem;
   text-indent: -1.5rem;
@@ -24,6 +32,7 @@ a {
 }
 
 .work-title {
+  margin-bottom: 0;
   color: #ddd;
 }
 
